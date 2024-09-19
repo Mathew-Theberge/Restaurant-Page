@@ -1,6 +1,7 @@
 import "./style.css"
 import { renderHomePage} from "./home"
 import {renderMenuPage} from "./menu.js"
+import { renderAboutPage } from "./about.js"
 
 export const content = document.querySelector("#content")
 export const homeBtn = document.querySelector(".homeBtn")
@@ -13,3 +14,5 @@ renderHomePage()
 homeBtn.addEventListener("click", renderHomePage)
 
 menuBtn.addEventListener("click", renderMenuPage)
+
+aboutBtn.addEventListener("click", renderAboutPage)
