@@ -7,6 +7,7 @@ const img = document.createElement("img")
 
 export function renderHomePage() {
         content.replaceChildren()
+        button.setAttribute("onclick", "location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'")
         para.textContent = "My Awesome dine in Restaurant"
         button.textContent = "Order Now"
         img.setAttribute("height", "550px")
