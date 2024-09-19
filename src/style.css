@@ -90,3 +90,37 @@ button:hover {
     margin-right: -7rem;
 }
 
+/* css for menu page layout */
+
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+
+.menu > .card > img {
+    border: solid rgb(206, 168, 203) 2px;
+}
+
+.menu > .card {
+    border: solid white 1px;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.452);
+    display: grid;
+    justify-items: center;
+    gap: 12px;
+    
+}
+
+.menu > .card > div {
+    color: white;
+}
+
+.menu > .card > div:nth-child(2) {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
