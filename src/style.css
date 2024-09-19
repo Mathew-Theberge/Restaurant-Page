@@ -7,6 +7,13 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+/* for underling the current tab the user is on */
+
+.active {
+    border-bottom: solid 1px orange;
+}
+
 /* css for home page layout */
 
 body {
